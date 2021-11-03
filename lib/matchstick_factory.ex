@@ -9,7 +9,7 @@ defmodule Learning.MatchstickFactory do
 
     medium = div(remaning_after_big, @medium_box_size)
     remaning_after_medium = rem(remaning_after_big, @medium_box_size)
-    
+
     small = div(remaning_after_medium, @small_box_size)
     remaning = rem(remaning_after_medium, @small_box_size)
 
